@@ -46,3 +46,34 @@ The art of forecasting stock prices has been a difficult task for many of the re
 6. Adj Close - Adjusted close price adjusted for splits and dividend and/or capital gain distributions
 7. Volume - Volume of stocks traded
 
+**Target Variable - Close**
+
+## EXPLORATORY DATA ANALYSIS (EDA)
+
+In order to completely understand the dataset, EDA was performed. Exploratory data analysis helps us to understand the dataset, relationships and correlation amoung different data points, reliability of the data, valuable insights and patterns, enabling us to make data driven decisions and model choices.
+
+**Preliminary data analysis**
+Preliminary analysis was conducted to check for dataset size and shape, data type of the columns, missing values, and statistical summary of numerical variables. Methods used are:
+- df.info()
+- df.describe()
+- df.isnull().sum()
+For further ease and convenience, the **Date** column was set as index and a new **Formated Date** column was created
+
+**Visualizations**
+1. Visualization of all price values: Below plot shows us how the Open, High, Low, Close, Adj Close, Volume, Formated Date of Netflix stock has changed over the five years from Feb 2018 to Feb 2022.
+<img width="600" alt="image" src="">
+2. Distribution and variation in **Close** price: These plots mainly focuses us illustrates the distribution and variation of our target variable **Close** price
+<img width="600" alt="image" src="">
+3. Daily Returns: The daily returns of the netflix stock price over the 5 year period was calculated and stored in a new column **Daily Returns**. below graphs depicts the distribution of daily returns percentage and visualization of daily returns for the 5 years.
+<img width="600" alt="image" src="">
+4. Cumulative Returns: Here, Cumulative returns of netflix from 2018 to 2022 were caluculated and stored in **Cumulative Returns** column and visualized.
+<img width="600" alt="image" src="">
+5. Plot comparision of closing price and moving average: Moving average, being one of the most used parameter in analysis of stock prices, was calculated. The **Close** price was compared against daily moving average for 30 day window.
+<img width="600" alt="image" src="">
+
+## Model training:
+- The train vs test split of 80/20 was used
+- Models using for predictive analysis:
+          - Linear Regression
+          - Random Forest classifier
+

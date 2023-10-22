@@ -61,15 +61,17 @@ For further ease and convenience, the **Date** column was set as index and a new
 
 **Visualizations**
 1. Visualization of all price values: Below plot shows us how the Open, High, Low, Close, Adj Close, Volume, Formated Date of Netflix stock has changed over the five years from Feb 2018 to Feb 2022.
-<img width="600" alt="image" src="">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img1.png">
 2. Distribution and variation in **Close** price: These plots mainly focuses us illustrates the distribution and variation of our target variable **Close** price
-<img width="600" alt="image" src="">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img2.png">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img3.png">
 3. Daily Returns: The daily returns of the netflix stock price over the 5 year period was calculated and stored in a new column **Daily Returns**. below graphs depicts the distribution of daily returns percentage and visualization of daily returns for the 5 years.
-<img width="600" alt="image" src="">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img4.png">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img5.png">
 4. Cumulative Returns: Here, Cumulative returns of netflix from 2018 to 2022 were caluculated and stored in **Cumulative Returns** column and visualized.
-<img width="600" alt="image" src="">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img6.png">
 5. Plot comparision of closing price and moving average: Moving average, being one of the most used parameter in analysis of stock prices, was calculated. The **Close** price was compared against daily moving average for 30 day window.
-<img width="600" alt="image" src="">
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/img7.png">
 
 ## Model training:
 - The train vs test split of 80/20 was used

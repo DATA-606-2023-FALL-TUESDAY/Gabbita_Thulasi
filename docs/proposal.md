@@ -57,6 +57,7 @@ Preliminary analysis was conducted to check for dataset size and shape, data typ
 - df.info()
 - df.describe()
 - df.isnull().sum()
+
 From above steps, I observed dataset is clean and ready to use. Hence, no further cleaning required.
 
 For further ease and convenience, the **Date** column was set as index and a new **Formated Date** column was created

@@ -76,6 +76,6 @@ For further ease and convenience, the **Date** column was set as index and a new
 ## Model training:
 - The train vs test split of 80/20 was used
 - Models using for predictive analysis:
-          - Linear Regression
-          - Random Forest classifier
+  - Linear Regression
+  - Random Forest classifier
 

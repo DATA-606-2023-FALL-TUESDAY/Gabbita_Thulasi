@@ -6,7 +6,7 @@
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - [GitHub](https://github.com/ThulasiGabbita57)
 - [LinkedIn](https://www.linkedin.com/in/thulasi-gabbita/)
-- **Link to your PowerPoint presentation file** - In Progress
+- [PowerPoint presentation file](https://github.com/DATA-606-2023-FALL-TUESDAY/Gabbita_Thulasi/blob/main/docs/DATA606_FinalPresentation.pptx)
 - **Link to your YouTube video** - In Progress
 
     
@@ -78,7 +78,55 @@ For further ease and convenience, the **Date** column was set as index and a new
 
 ## Model training:
 - The train vs test split of 80/20 was used
-- Models using for predictive analysis:
+- Models used for predictive analysis:
   - Linear Regression
   - Random Forest classifier
+  - ARIMA
+- Python packages used for this project include:
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - Pandas
+  - numpy
+  - seaborn
+- The development environments used include:
+  - Jupyter Notebook
+  - Visual Studio Code
+
+After performing Linear Regression and Random forest classifier models on the Netflix dataset it was observed that models are overfitting the data and not suitable for analyzing time series data. Hence, ARIMA model was used to obtain final predictions
+
+**ARIMA model**  
+ARIMA model helps us to evaluate time series data. As ARIMA has to be performed on stationary data, ADFuller test needs to be conducted to test data stationarity. 
+
+- Testing data stationarity using ADFuller Test
+  - In ADFuller test, we will analyze the p-value, if p-value is less than or equal to 0.05, it indicates strong evidence against null hypothesis. So, we can reject the null hypothesis indicating data is stationary
+  - In the other case, if p-value is greater than 0.05, it indicates time series data has a unit root, weak evidence against null hypothesis and data is not stationary.
+  - For Netflix data set, initial p-value was observed as 0.3 which is greater than 0.05 so data is not stationary.
+  - After differencing the data, p-value was observed below 0.05 stating data is stationary
+
+ARIMA model was performed on the differenced data(stationary data) and r2 score was observed as 0.97
+
+**forecasting values for next 30 days**
+1. Below plot shows us the forecasted values of Netflix stock for next 30 days.
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/image.png">
+
+**Predicted Values (ARIMA) vs Original Price**
+1. Below plot shows us the predicted values of Netflix stock using ARIMA model vs Original Price of Netflix stock
+<img width="600" alt="image" src="https://github.com/ThulasiGabbita57/UMBC-DATA606-FALL2023-TUESDAY/blob/main/newplot.png">
+
+## Challenges: 
+- Performing EDA with an unconventional approach of using statistical data like cumulative returns, moving average  
+- Training and prediction of time series data using ARIMA model  
+
+## Lessons Learned: 
+- Analysis of time series data 
+- Finding different parameters and their scope in analyzing stock price data 
+- Time series forecast using ARIMA
+
+## Conclusion:  
+- Linear Regression and Random Forest models were overfitting the data and not suitable to analyze time series datasets
+- ARIMA can be used to analyse time series data after checking for data stationarity
+- Even thouogh stock price predictions are not fully reliable we can use them to certain extent like how the stock price will go in future, what are the possible ranges of price, etc.
+
+
 

@@ -7,7 +7,7 @@
 - [GitHub](https://github.com/ThulasiGabbita57)
 - [LinkedIn](https://www.linkedin.com/in/thulasi-gabbita/)
 - [PowerPoint presentation file](https://github.com/DATA-606-2023-FALL-TUESDAY/Gabbita_Thulasi/blob/main/docs/DATA606_FinalPresentation.pptx)
-- **Link to your YouTube video** - In Progress
+- [YouTube video](https://youtu.be/SlcBwcVQDhc)
 
     
 ## Background

@@ -3,6 +3,7 @@
 ## Title and Author
 - **Title** : Netflix stock price prediction
 - **Author** : Thulasi Gabbita
+- **Semester** : Fall 2023
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
 - [GitHub](https://github.com/ThulasiGabbita57)
 - [LinkedIn](https://www.linkedin.com/in/thulasi-gabbita/)
